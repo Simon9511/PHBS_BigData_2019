@@ -53,7 +53,7 @@ However, considering that the data we crawled is static data, there is no time s
 
 ## 4 Workflow
 
-![屏幕快照 2019-11-30 下午11.35.39](/Users/Answer/Desktop/屏幕快照 2019-11-30 下午11.35.39.png)
+![workflow](https://github.com/Simon9511/PHBS_BigData_2019/blob/master/Homework_1/workflow.png)
 
 ## 5 Project Difficulties
 
