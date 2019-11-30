@@ -9,7 +9,7 @@ The core idea of this project is to obtain Dianping app data and extract valuabl
 1. Draw a food map of Shenzhen based on the comments, likes, views, and ratings of each store in the public review. The map mainly contains information: the distribution of food types in each region, the distribution of high praise stores in each region, the distribution of people in each region, and so on. The presentation method can be combined with various forms such as heat map, bar chart, and pie chart.
 2. Follow-up exploration: Based on the information mined from the public comments, combined with other dimensional data, we can create a model to predicts Shenzhen's house prices. We can train the model by crawling the data of intermediary houses such as Lianjia website as the dependent variable.
 
-**data properties **
+**data properties**
 
 According to the knowledge we learned in this class, big data has 3V characteristics (volume, velocity, variety). Next, we will explain from these three aspects why Dianping data can be regarded as big data.
 
@@ -21,7 +21,7 @@ According to the knowledge we learned in this class, big data has 3V characteris
 
 The Dianping app contains multi-dimensional data. Here, we mainly focus on shops' data.
 
-**Shop dimension **
+**Shop dimension**
 
 Basic information: shop name, area (city, area, street), shop type
 
@@ -41,11 +41,11 @@ Basic information table: used to store the basic information of the store, such 
 
 Store evaluation form: It is used to store data such as store ratings, likes, and reviews. Such data changes over time and needs to be updated daily.
 
-**Non-Relational Database **
+**Non-Relational Database**
 
 User evaluation table: Considering that user evaluations are mostly text and video data, which are unstructured data. It is not easy to store them in a relational database, so they are stored in a non-relational database. The NLP algorithm can then be docked to extract the user's evaluation characteristics of the store.
 
-**Time Series Database **
+**Time Series Database**
 
 Time series database is a kind of non-relational database, which can process time series data efficiently.
 
